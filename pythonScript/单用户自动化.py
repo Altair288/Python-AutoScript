@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import time
 
 # 配置ChromeDriver路径和选项
-chrome_driver_path = 'C:\\Users\\Administrator\\Desktop\\Workspace\\chromedriver-win64\\chromedriver.exe'
+chrome_driver_path = 'C://Users//Administrator//Desktop//chromedriver.exe'
 chrome_options = Options()
 chrome_options.add_argument('--disable-gpu')  # 如果在Windows操作系统下，可以加上这一行
 service = Service(chrome_driver_path)
